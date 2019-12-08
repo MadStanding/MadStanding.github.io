@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Desktop View/global*/
+
+body{
+	font-family: "Cambria", "serif";
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FFF
+}
+
+.col {
+	float: left;
+	padding: 1%;
+}
+
+.col-lg {
+	width: 28.5%;
+}
+
+.col-lg img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.slicknav_menu{
+	display:none;
+}
+
+#menu {
+	float:right;
+}
+
+#menu li {
+	display:inline-block;
+}
+#menu li a {
+	text-decoration: none;
+	color: #1f4472;
+	padding: 8px;
+	font-size: 18px;
+}
+header {
+	padding: 10px 20px 20px 20px;
+}
+
+
+.hero {
+	background-image:url("Images for Portfolio/thumbnail_IMG_0116 copy.jpg");
+	padding: 52px 52px 72px 72px;
+	background-size: cover;
+}
+
+.picture {
+	float: left;
+	
+}
+.p {
+	color:#1f4472;
+	font-weight: 400;
+	font-size: 20px;
+}
+	
+
+	
+.subheading {
+
+	color:#1f4472;
+	font-weight:800;
+	font-size: 30px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin-bottom: -5px;
+	
+}
+
+h1 {
+	color:#1f4472;
+	font-weight: 200;
+	font-size: 25px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.heading-body-copy {
+	color:#FFF;
+	margin-right: 20%;
+	margin-bottom: 15px;
+}
+.p {
+	color:#FFF;
+	margin-bottom: 15px;
+	
+}
+
+.lets-talk {
+	color:#FFFFFF;
+	background-color: #1f4472;
+	padding: 8px 30px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+/*Tablet View*/
+
+@media (max-width: 768px){
+	
+	#menu li {
+		display: block;
+		text-align: right;
+	}
+
+	.col-md {
+		width: 48%
+	}
+}
+/*Mobile View*/
+
+@media (max-width: 480px){
+	.slicknav_menu{
+	display:block;
+}
+	#menu{
+		display:none
+	}
+	
+	.col-sm {
+		width: 100%;
+	}
+	.col {
+		padding: 0%;
+	}
+}
+	
+	
